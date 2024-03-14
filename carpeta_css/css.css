@@ -1,0 +1,100 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: rgb(253, 75, 75)
+    
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.red-nav {
+    background-color: rgb(249, 101, 101);
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 450px; 
+}
+
+.red-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.red-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.red-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.red-nav li a:hover {
+    background-color: white;
+    color: rgb(248, 51, 51);
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1; /* Que la imagen ocupe un tercio del ancho disponible */
+    padding: 10px; /* Añadir un espacio interno al contenedor */
+}
+
+.image-container img {
+    width: 100%;
+    height: 150%;
+}
+
+.content {
+    flex: 2; /* Que el contenido ocupe dos tercios del ancho disponible */
+    padding: 10px; /* Añadir espacio interno al contenido */
+    margin-left: 30px;
+    
+}
+
+.content h2 {
+   font-size: 24px; 
+   font-weight: bold; 
+   margin-top: 50px; /* Ajustar el margen superior según sea necesario */
+   margin-left: 60px;
+  
+}
+
+.content p {
+    font-size: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(252, 42, 42);
+    padding: 9px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    color: #ffffff;
+    
+    font-family: "Open Sans", sans-serif;
+}
