@@ -1,0 +1,93 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto; /* Centrar el body horizontalmente */
+}
+
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 0, 0)
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+.red-nav {
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 450px; 
+}
+
+.red-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.red-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.red-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.red-nav li a:hover {
+    background-color: white;
+    color: red;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1; /* Que la imagen ocupe un tercio del ancho disponible */
+    padding: 10px; /* Añadir un espacio interno al contenedor */
+}
+
+.image-container img {
+    width: 110%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: 150;
+}
+
+.content {
+    flex: 2; /* Que el contenido ocupe dos tercios del ancho disponible */
+    padding: 10px; /* Añadir espacio interno al contenido */
+    margin-left: 60px;
+}
+
+.content h2 {
+    font-size: 24px; /* Aumentar el tamaño del título a 24px */
+    font-weight: bold;
+    margin-top: 0; /* Eliminar el margen superior por defecto */
+    margin-left: 10px;
+}
+
+.content p {
+    font-size: 18px; /* Aumentar el tamaño del texto a 18px */
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    padding: 12px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row; 
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
